@@ -1,9 +1,9 @@
 # In-memory-file-system
-The memoryfs.py file (which is seperated into memoryfs_client.py and memoryfs_server.py in the later updates) implements the file system objects.
-The memoryfs_shell.py imports memoryfs, and implements a rudimentary "shell" for interactive access to the file system.
-Use "dump" file 12345678_BS_128_NB_256_IS_16_MI_16.dump with preloaded contents for blocks.
+-The memoryfs.py file (which is seperated into memoryfs_client.py and memoryfs_server.py in the later updates) implements the file system objects.
+-The memoryfs_shell.py imports memoryfs, and implements a rudimentary "shell" for interactive access to the file system.
+-Use "dump" file 12345678_BS_128_NB_256_IS_16_MI_16.dump with preloaded contents for blocks.
 
-Involved practical issues: client/service, networking, and fault tolerance.
+-Involved practical issues: file system, client/service, networking, and fault tolerance.
 
 ## Version 1
 
